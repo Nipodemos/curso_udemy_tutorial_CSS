@@ -17,7 +17,7 @@ p {
 }
 
 body {
-    background-color: #d31d1d;
+    background-color: black;
 }
 
 * {
@@ -32,13 +32,20 @@ header {
 
 #div-esquerda {
     background-color: red;
+    height: 200px;
+    width: 60%;
+    float: left;
 }
 
 #div-direita {
     background-color: yellow;
+    height: 200px;
+    width: 40%;
+    float: right;
 }
 
 footer {
     background-color: blue;
     height: 30px;
+    clear: both;
 }
