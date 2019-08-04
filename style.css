@@ -49,3 +49,8 @@ footer {
     height: 30px;
     clear: both;
 }
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
