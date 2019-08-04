@@ -19,3 +19,26 @@ p {
 body {
     background-color: #d31d1d;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: green;
+    height: 100px;
+}
+
+#div-esquerda {
+    background-color: red;
+}
+
+#div-direita {
+    background-color: yellow;
+}
+
+footer {
+    background-color: blue;
+    height: 30px;
+}
