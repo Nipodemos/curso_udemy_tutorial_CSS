@@ -1,0 +1,13 @@
+/* Meu primeiro comentário */
+
+/* Sintaxe CSS
+
+seletor {
+    propriedade: valor,
+    propriedade: valor2
+}
+*/
+
+p {
+    color: red;
+}
