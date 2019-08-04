@@ -10,4 +10,12 @@ seletor {
 
 p {
     color: red;
+    font-size: 90px;
+    font-family: Arial;
+    font-family: "Comic Sans MS";
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #d31d1d;
 }
