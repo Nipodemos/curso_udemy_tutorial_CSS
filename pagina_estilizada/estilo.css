@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #35b8b0;
 }
 
 header {
@@ -51,10 +51,32 @@ p {
 
 /* * * * * * ID's * * * * */
 #principal {
+    clear: both;
     background-image: url('FFXII_1.jpg');
     background-size: 100%;
     min-height: 400px;
     padding: 10px 0;
+}
+
+#logo {
+    float: left
+}
+
+#menu {
+    margin: 25px 0;
+    float: right;
+}
+
+#menu a {
+    padding: 56px 20px;
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+#menu a:hover {
+    background-color: black;
+    color: #35b8b0;
 }
 
 /* * * * * * CLASSES * * * * */
