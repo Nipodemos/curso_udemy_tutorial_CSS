@@ -23,13 +23,27 @@ footer {
 }
 
 h1 {
-    color: black;
+    color: #ff7f50;
+    /* Como funciona o text-shadow
+    o primeiro valor define o tamanho da sombra na horizontal
+    o segundo valor define o tamanho da sombra na vertical
+    o terceiro valor define o quanto de blur será aplicado na sombra
+    o quarto valor é a cor da sombra
+     */
+    text-shadow: 2px 2px 2px #111111;
     text-align: center;
     margin: 0 0 20px 0;
 }
 
 p {
-    color: black;
+    color: white;
+    /* Como funciona o text-shadow
+    o primeiro valor define o tamanho da sombra na horizontal
+    o segundo valor define o tamanho da sombra na vertical
+    o terceiro valor define o quanto de blur será aplicado na sombra
+    o quarto valor é a cor da sombra
+     */
+    text-shadow: 1px 1px 1px gray;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -40,11 +54,17 @@ p {
     background-image: url('FFXII_1.jpg');
     background-size: 100%;
     min-height: 400px;
-    padding: 100px 0 0 0;
+    padding: 10px 0;
 }
 
 /* * * * * * CLASSES * * * * */
 .container {
     width: 960px;
     margin: 0 auto;
+}
+
+.efeito {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 100px 10px;
+    margin: auto 0;
 }
